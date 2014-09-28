@@ -27,17 +27,17 @@ public class Reseau extends Joueur
 	 */
 	protected ServerSocket socketServeur;
 	/**
-	 * Le socket necessaire au reseau, par lequel les données seront echangé
+	 * Le socket necessaire au reseau, par lequel les donnees seront echange
 	 */
 	protected Socket socket;
 
 	/**
-	 * Constructeur de base qui permet de récupérer le nom du l'adversaire
+	 * Constructeur de base qui permet de recuperer le nom du l'adversaire
 	 * @param server indique si l'on est le serveur ou le client
-	 * @param numero_port le port d'écoute
-	 * @param ip l'adresse ip où l'on souhaite se connecter
+	 * @param numero_port le port d'ecoute
+	 * @param ip l'adresse ip ou l'on souhaite se connecter
 	 * @param nom_ le nom du joueur en local
-	 * @param paneau l'affichage utilisé
+	 * @param paneau l'affichage utilise
 	 */
 	public Reseau(final boolean server, final int numero_port, final String ip, final String nom_, final Panneau paneau)
 	{
@@ -116,7 +116,7 @@ public class Reseau extends Joueur
 		nom = nom_ini;
 	}
 	/**
-	 * Interface envoyant le coup précédant (sauf les partie nulle) et récupérant ensuite les coup de l'adversaire
+	 * Interface envoyant le coup precedant (sauf les partie nulle) et recuperant ensuite les coup de l'adversaire
 	 */
 	public Coup jouerCoup(PartieAbstraite partie)
 	{
@@ -138,8 +138,8 @@ public class Reseau extends Joueur
 	
 	/**
 	 * Receptionne un coup
-	 * @param partie partie pour laquelle le coup sera joué
-	 * @return le coup reçu
+	 * @param partie partie pour laquelle le coup sera joue
+	 * @return le coup recu
 	 */
 	public Coup receptionCoup(PartieAbstraite partie)
 	{
@@ -165,8 +165,8 @@ public class Reseau extends Joueur
 	}
 	/**
 	 * Envoie un coup
-	 * @param coup le à envoyer
-	 * @param partie la partie sert à récupérer l'affichage
+	 * @param coup le coup a envoyer
+	 * @param partie la partie sert a recuperer l'affichage
 	 */
 	public void envoieCoup(Coup coup, PartieAbstraite partie)
 	{
@@ -219,4 +219,3 @@ public class Reseau extends Joueur
 		}
 	}
 }
-	

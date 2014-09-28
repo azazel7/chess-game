@@ -15,7 +15,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 /**
- * Cette classe affiche la bo�te de dialogue necessaire � la r�cup�ration d'information pour cr�er une partie en r�seau
+ * Cette classe affiche la boite de dialogue necessaire a la recuperation d'information pour creer une partie en reseau
  * @author Gladiat
  *
  */
@@ -49,7 +49,7 @@ public class DialoguePartieReseau extends JDialog
 	public DialoguePartieReseau(JFrame parent, String title, boolean modal)
 	{
 		super(parent, title, modal);
-		//saisir le type de joueur avec case � cocher
+		//saisir le type de joueur avec case a cocher
 		//zone de saisi pour les nom des joueur ou leur difficulte
 		JPanel pan = new JPanel(), j1 = new JPanel(), j2 = new JPanel(), bouton = new JPanel();
 		
@@ -121,7 +121,7 @@ public class DialoguePartieReseau extends JDialog
 	}
 	/**
 	 * Active la boite de dialogue pour la rendre visible
-	 * @return un tableau d'objet contenant les information r�cup�r�es
+	 * @return un tableau d'objet contenant les informations recuperees
 	 */
 	public Object[] activer()
 	{

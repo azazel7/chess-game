@@ -13,7 +13,7 @@ import Partie.PartieAbstraite;
 public class IA extends Joueur
 {
 	/**
-	 * Une instance de MinMax qui servira � calculer les coup pour des IA plus pouss�
+	 * Une instance de MinMax qui servira a calculer les coup pour des IA plus pousse
 	 */
 	protected MinMax minmax = new MinMax();
 	/**
@@ -47,7 +47,7 @@ public class IA extends Joueur
 		level = 1;
 	}
 	/**
-	 * Constructeur pour initialiser les deux attribu
+	 * Constructeur pour initialiser les deux attributs
 	 * @param nom
 	 * @param niveau
 	 */
@@ -86,7 +86,7 @@ public class IA extends Joueur
 	}
 	/**
 	 * Fonction de reflexion facile
-	 * @param partie partie sur laquel la methode doit refl�chir
+	 * @param partie partie sur laquel la methode doit reflechir
 	 * @return le coup choisie
 	 */
 	public Coup reflexionFacile(PartieAbstraite partie)
@@ -133,7 +133,7 @@ public class IA extends Joueur
 	}
 	/**
 	 * Fonction de reflexion facile
-	 * @param partie partie sur laquel la methode doit refl�chir
+	 * @param partie partie sur laquel la methode doit reflechir
 	 * @return le coup choisie
 	 */
 	public Coup Facile(PartieAbstraite partie)
@@ -171,7 +171,7 @@ public class IA extends Joueur
 	}
 	/**
 	 * Choisie au hasard un coup parmis ceux jouable
-	 * @param partie partie sur laquel la methode doit refl�chir
+	 * @param partie partie sur laquel la methode doit reflechir
 	 * @return le coup choisie
 	 */
 	public Coup tropFacile(PartieAbstraite partie)
@@ -208,7 +208,7 @@ public class IA extends Joueur
 		return new IA(nom, level);
 	}
 	/**
-	 * G�n�re un nom de mani�re pseudo al�atoire. Comme cela les IA ont un nom potable et pronon�able
+	 * Genere un nom de maniere pseudo aleatoire. Comme cela les IA ont un nom potable et prononcable
 	 * @return une chaine qui sera le nom choisi
 	 */
 	public static String generateName()
@@ -229,7 +229,7 @@ public class IA extends Joueur
 		liste[12] = new String("Ellana");
 		liste[13] = new String("Ewilan");
 		liste[14] = new String("Raistlin");
-		liste[15] = new String("tasslehoff racle-pieds");
+		liste[15] = new String("Tasslehoff racle-pieds");
 		liste[16] = new String("Tom Jedusor");
 		liste[17] = new String("Flint Forgefeu");
 		liste[18] = new String("Arkandia");

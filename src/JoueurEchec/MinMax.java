@@ -27,8 +27,8 @@ public class MinMax
 							   {0, 0, 0, 0, 0, 0, 0, 0}};
 	/**
 	 * Retourne un coup calculer par l'objet
-	 * @param la partie à étudier
-	 * @param la profondeur à arpanter
+	 * @param la partie a etudier
+	 * @param la profondeur a arpanter
 	 * @param la couleur du joueur
 	 */
 	public Coup jouerCoup(PartieAbstraite partie, int profondeur, boolean couleur)//cherche le maximum
@@ -70,11 +70,11 @@ public class MinMax
 	}
 	/**
 	 * Noeud min qui maximise le coup de l'adversaire
-	 * @param partie la partie à explorer
+	 * @param partie la partie a explorer
 	 * @param profondeur la profondeur restante
 	 * @param couleur la couleur a etudier
-	 * @param alpha le minimum des frére trouvé
-	 * @param beta le maximum des frére trouvé
+	 * @param alpha le minimum des frere trouve
+	 * @param beta le maximum des frere trouve
 	 * @return le poid du coup
 	 */
 	public int Min(PartieAbstraite partie, int profondeur, boolean couleur, int alpha, int beta)//cherche le minimum
@@ -133,11 +133,11 @@ public class MinMax
 	}
 	/**
 	 * Noeud max qui maximise le coup pour nous
-	 * @param partie la partie à explorer
+	 * @param partie la partie a explorer
 	 * @param profondeur la profondeur restante
 	 * @param couleur la couleur a etudier
-	 * @param alpha le minimum des frére trouvé
-	 * @param beta le maximum des frére trouvé
+	 * @param alpha le minimum des frere trouve
+	 * @param beta le maximum des frere trouve
 	 * @return le poid du coup
 	 */
 	public int Max(PartieAbstraite partie, int profondeur, boolean couleur, int alpha, int beta)//cherche le maximum
@@ -220,7 +220,7 @@ public class MinMax
 	}
 	/**
 	 * Methode qui evalue une partie
-	 * @param partie la partie à evaluer
+	 * @param partie la partie a evaluer
 	 * @param couleur la couleur de laquelle on regarde
 	 * @param poid le poid initiale
 	 * @return retourne le poid de la partie
@@ -280,12 +280,11 @@ public class MinMax
 	}
 	/**
 	 * Renvoi la valeur d'une position
-	 * @param p la position à evaluer
+	 * @param p la position a evaluer
 	 * @return son poid
 	 */
 	public int poidPosition(Position p)
 	{
 		return poidp[p.getX()][p.getY()];
 	}
-
 }

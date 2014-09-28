@@ -24,11 +24,11 @@ public class Echequier
 	 */
 	protected int longueur;
 	/**
-	 * represente la hauteur de l'ordonnée
+	 * represente la hauteur de l'ordonnee
 	 */
 	protected int hauteur;
 	/**
-	 * Repertorie toute les pieces presente sur l'echequier
+	 * Repertorie toute les pieces presentes sur l'echequier
 	 */
 	protected LinkedList<PieceAbstraite> piece;
 	

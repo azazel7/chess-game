@@ -21,7 +21,7 @@ import PieceEchec.Tour;
  * 			[A-Z][a-h][1-8][\-x][a-h][1-8][A-Z][e.p]
  * 			[piece qui joue (facultatif)][depart][action][fin][promotion (s'il y a) (facultatif)][indique prise en passant]
  * 			^([RDFCTP])?([a-h])([1-8])[\\-x]([a-h])([1-8])([RDFCT])?[e.p!\\?+#x=\\-,[0-9] /]*$
- * algebrique abrïegee
+ * algebrique abregee
  * 			[A-Z][[a-h][1-8]][a-h][1-8][=][A-Z][e.p]
  * 			[la piece][colone ou rangï¿½ si necessaire][fin][promotion][prise en passant]
  * 			^([RDFCTP])?([a-h1-8])?([a-h])([1-8])=?([RDFCT])?[e.p!\\?+#x=\\-,[0-9] /]*$
@@ -45,10 +45,10 @@ public class Humain extends Joueur
 		super(nom);
 	}
 	/**
-	 * Cette methode traite une chaine de caractére, puis retourne un coup. La chaine peut être en notation algébrique compléte ou abrégée.
-	 * Les coup spéciaux tel que partie nulle ou partie abandon sont aussi traités par cette methode
-	 * @param chaine la chaine à etudier
-	 * @param partie la partie sur laquel le coup sera joué
+	 * Cette methode traite une chaine de caractere, puis retourne un coup. La chaine peut etre en notation algebrique complete ou abregee.
+	 * Les coup speciaux tel que partie nulle ou partie abandon sont aussi traites par cette methode
+	 * @param chaine la chaine a etudier
+	 * @param partie la partie sur laquel le coup sera joue
 	 * @return le coup
 	 */
 	public static Coup traitement(String chaine, PartieAbstraite partie)
@@ -141,7 +141,7 @@ public class Humain extends Joueur
 					i--;
 				}
 			}
-			//on verifi les information bonus
+			//on verifi les informations bonus
 			if(mabrege.group(2) != null && mabrege.group(2).charAt(0) >= 'a' && mabrege.group(2).charAt(0) <= 'h')//on balaye les x
 			{
 				for(int i = 0; i < piece.size(); i++)

@@ -2,7 +2,7 @@
 import JoueurEchec.Joueur;
 import Partie.PartieAbstraite;
 /**
- * Classe permettant l'affichage. Une partie en contient une de maniére à savoir comment s'afficher
+ * Classe permettant l'affichage. Une partie en contient une de maniere à savoir comment s'afficher
  * @author Onyx
  *
  */
@@ -48,12 +48,12 @@ public abstract class AffichageAbstrait
 	public abstract void afficherErreur(String erreur);
 	/**
 	 * Afficher une chaine en console( mais pas en graphique)
-	 * Les chaines affichée ainsi sont destinées à la console. En effet, sinon, on verrai bien trop de pop up en graphique
+	 * Les chaines affichee ainsi sont destinees à la console. En effet, sinon, on verrai bien trop de pop up en graphique
 	 * @param chaine la chaine à afficher
 	 */
 	public abstract void afficherChaine(String chaine);
 	/**
-	 * Permet la saisie d'une chaine de caractére
+	 * Permet la saisie d'une chaine de caractere
 	 * @return la chaine saisie
 	 */
 	public abstract String SaisirChaine();
@@ -64,7 +64,7 @@ public abstract class AffichageAbstrait
 	public abstract AffichageAbstrait clonage();
 	/**
 	 * Affiche un pop up en graphique avec les informations. En mode textuel, il se contente d'afficher une chaine
-	 * @param chaine la chaine à afficher
+	 * @param chaine la chaine a afficher
 	 */
 	public abstract void afficherPop(String chaine);
 	public Panneau getPaneau() {

@@ -28,17 +28,17 @@ public class Panneau extends JPanel
 	
 	private static final long serialVersionUID = 1L;
 	/**
-	 * La partie à afficher
+	 * La partie a afficher
 	 */
 	private PartieAbstraite partie;
 	/**
-	 * Ayant échoué dans ma quéte de la transparence du fond, j'ai du me rabaisser à créer un second jeu d'image avec le fond de couleur marron pour ce genre de case
+	 * Ayant echoue dans ma quete de la transparence du fond, j'ai du me rabaisser a creer un second jeu d'image avec le fond de couleur marron pour ce genre de case
 	 * C'est pourquoi il y a deux tableau
 	 */
 	private Image piece_img[][] = new Image[6][2];
 	private Image piece_imgm[][] = new Image[6][2];
 	/**
-	 * Constructeur qui charge les images et affiche la partie s'il en a une en paramétre
+	 * Constructeur qui charge les images et affiche la partie s'il en a une en parametre
 	 * @param partie_ini la partie initial
 	 */
     public Panneau(PartieAbstraite partie_ini)
@@ -157,11 +157,11 @@ public class Panneau extends JPanel
     	}
     }
     /**
-     * Cette méthode renvoie une image des tableaux de piece en fonction de la case et de la piece s'y trouvant
+     * Cette methode renvoie une image des tableaux de piece en fonction de la case et de la piece s'y trouvant
      * @param piece la piece
      * @param x abscisse de la piece
-     * @param y ordonné de la piece
-     * @return l'image à afficher
+     * @param y ordonne de la piece
+     * @return l'image a afficher
      */
     public Image recupererImagePiece(PieceAbstraite piece, int x, int y)
     {

@@ -31,7 +31,7 @@ import JoueurEchec.Reseau;
 
 /**
  * Cette classe s'occupe de la gestion de l'affichage et de l'interface graphique
- * @author Arkkandia
+ * @author Arkandia
  *
  */
 public class Fenetre extends JFrame{
@@ -125,7 +125,7 @@ public class Fenetre extends JFrame{
      }
      
      /**
-      * Classe interne qui gere l'appuie de la touche entr� pour envoyer des coup. Elle gere aussi le clique pour le bouton
+      * Classe interne qui gere l'appuie de la touche entre pour envoyer des coup. Elle gere aussi le clique pour le bouton
       * @author Ellana
       *
       */
@@ -449,7 +449,7 @@ public class Fenetre extends JFrame{
     	 }
      }
      /**
-      * Classe interne qui informe si une partie peut-etre declaree nulle selon certaine regle officiel qui sont les 50 coup et la triple repetition
+      * Classe interne qui informe si une partie peut-etre declaree nulle selon certaine regle officielle qui sont les 50 coups et la triple repetition
       * @author Balthazar
       *
       */

@@ -95,7 +95,7 @@ public class Coup
 	}
 	/**
 	 * 
-	 * @param coup le coup a  tester
+	 * @param coup le coup a tester
 	 * @return true si le coup et le parametre son egaux
 	 */
 	public boolean equals(Coup coup)

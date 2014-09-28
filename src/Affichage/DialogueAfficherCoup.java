@@ -10,7 +10,7 @@ import javax.swing.JTable;
 
 import General.Coup;
 /**
- * Cette classe gérer une boite de dialogue affichant les coup d'une partie
+ * Cette classe gerer une boite de dialogue affichant les coup d'une partie
  * @author Anakin
  *
  */
@@ -22,7 +22,7 @@ public class DialogueAfficherCoup extends JDialog
 	 * @param parent
 	 * @param title
 	 * @param modal
-	 * @param liste liste des coup à afficher
+	 * @param liste liste des coup a afficher
 	 */
 	public DialogueAfficherCoup(JFrame parent, String title, boolean modal, LinkedList<Coup> liste)
 	{

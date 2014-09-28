@@ -145,7 +145,7 @@ public class Main
 	
 	/**
 	 * 
-	 * @return un joueur qui a  etait saisie (en console exclusivement)
+	 * @return un joueur qui a etait saisie (en console exclusivement)
 	 */
 	public static Joueur saisieJoueur()
 	{
@@ -214,8 +214,8 @@ public class Main
 	
 	/**
 	 * Verifie si une chaine est un nombre positif
-	 * @param chaine la chaine a verifier
-	 * @return true si la chaine correspond Ã  un nombre positif
+	 * @param chaine la chaine a verifier
+	 * @return true si la chaine correspond a un nombre positif
 	 */
 	
 	public static boolean isInteger(String chaine)

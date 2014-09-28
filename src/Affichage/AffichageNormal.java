@@ -65,8 +65,8 @@ public class AffichageNormal extends AffichageAbstrait
 		paneau.repaint();
 	}
 	/**
-	 * Transcrit une piece en caractére ascii
-	 * @param piece la piece à transposer
+	 * Transcrit une piece en caractere ascii
+	 * @param piece la piece a transposer
 	 * @return la corespondance en ascii
 	 */
 	public static byte affichage_ascii(PieceAbstraite piece)
