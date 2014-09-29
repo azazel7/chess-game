@@ -131,8 +131,8 @@ public abstract class PartieAbstraite
 		{
 			//refaire la roque inverse
 			//chercher le roi
-			//recup�rer la tour sur son cote
-			//mettre x tour � 0
+			//recuperer la tour sur son cote
+			//mettre x tour a 0
 			//augmenter x roi de 2
 			LinkedList<PieceAbstraite> piece = plateau.getPiece();
 			Position position = null;
@@ -162,8 +162,8 @@ public abstract class PartieAbstraite
 			//refaire la roque inverse
 			//refaire la roque inverse
 			//chercher le roi
-			//recup�rer la tour sur son cote
-			//mettre x tour � 7
+			//recuperer la tour sur son cote
+			//mettre x tour a 7
 			//diminuer x roi de 2
 			LinkedList<PieceAbstraite> piece = plateau.getPiece();
 			Position position = null;
@@ -765,6 +765,7 @@ public abstract class PartieAbstraite
 						retour.add(	new Coup(actuel_piece.getPosition(), actuel_pos, actuel_piece, (byte)'-', plateau.getPiecePosition(actuel_pos), (byte)'C'));//ce sont automatiquement des mvt simple
 						retour.add(	new Coup(actuel_piece.getPosition(), actuel_pos, actuel_piece, (byte)'-', plateau.getPiecePosition(actuel_pos), (byte)'F'));//ce sont automatiquement des mvt simple
 						retour.add(	new Coup(actuel_piece.getPosition(), actuel_pos, actuel_piece, (byte)'-', plateau.getPiecePosition(actuel_pos), (byte)'T'));//ce sont automatiquement des mvt simple
+						//TODO error
 					}
 					else
 					{
